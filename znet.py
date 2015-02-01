@@ -19,7 +19,7 @@ port = 0
 def usage():
     print "ZNet Tool"
     print
-    print "Usage: bhpnet.py -t target_host -p port"
+    print "Usage: znet.py -t target_host -p port"
     print "-l --listen\n\t-listen on [host]:[port] for incoming connections"
     print "-e --execute=file_to_run\n\t-execute the given file upon receiving a connection"
     print "-c --command\n\t-initialize a command shell"
